@@ -59,9 +59,14 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
+    needs: deploy
 
     steps:
     - name: Test endpoit with Curl 🧪
       uses: wei/curl@master
       with:
-        args: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+        # args: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+        args: https://hotelmirandaappservice.azurewebsites.net/names
+
+
+        
