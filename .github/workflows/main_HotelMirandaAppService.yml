@@ -56,3 +56,12 @@ jobs:
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_1d6f2c939f524225bec51871f2c10500 }}
         package: .
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Test endpoit with Curl 🧪
+      uses: wei/curl@master
+      with:
+        args: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
