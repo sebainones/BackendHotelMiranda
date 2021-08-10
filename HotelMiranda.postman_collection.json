@@ -13,8 +13,11 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Status code name has string\", function () {\r",
-							"    pm.response.to.have.status(\"OK\");\r",
+							"    // pm.response.to.have.status(\"OK\");\r",
+							"    pm.response.to.have.status(200);\r",
 							"});\r",
+							"\r",
+							" \r",
 							"\r",
 							"const jsonData = pm.response.json();\r",
 							"\r",
@@ -57,7 +60,8 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Status code name has string\", function () {\r",
-							"    pm.response.to.have.status(\"OK\");\r",
+							"    // pm.response.to.have.status(\"OK\");\r",
+							"    pm.response.to.have.status(200);\r",
 							"});"
 						],
 						"type": "text/javascript"
