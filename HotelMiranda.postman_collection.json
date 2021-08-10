@@ -12,20 +12,20 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code name has string\", function () {\r",
-							"    // pm.response.to.have.status(\"OK\");\r",
-							"    pm.response.to.have.status(200);\r",
-							"});\r",
+							"// pm.test(\"Status code name has string\", function () {\r",
+							"//     // pm.response.to.have.status(\"OK\");\r",
+							"//     pm.response.to.have.status(200);\r",
+							"// });\r",
 							"\r",
 							" \r",
 							"\r",
-							"const jsonData = pm.response.json();\r",
+							"// const jsonData = pm.response.json();\r",
 							"\r",
-							"pm.test(\"Response conatins sebas\", function(){\r",
-							"    console.log(jsonData);\r",
-							"    console.log(jsonData[5]);\r",
-							"    pm.expect(jsonData[5]).to.eql(\"Sebas\");\r",
-							"});\r",
+							"// pm.test(\"Response conatins sebas\", function(){\r",
+							"//     console.log(jsonData);\r",
+							"//     console.log(jsonData[5]);\r",
+							"//     pm.expect(jsonData[5]).to.eql(\"Sebas\");\r",
+							"// });\r",
 							"\r",
 							"\r",
 							""
@@ -59,10 +59,10 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code name has string\", function () {\r",
-							"    // pm.response.to.have.status(\"OK\");\r",
-							"    pm.response.to.have.status(200);\r",
-							"});"
+							"// pm.test(\"Status code name has string\", function () {\r",
+							"//     // pm.response.to.have.status(\"OK\");\r",
+							"//     pm.response.to.have.status(200);\r",
+							"// });"
 						],
 						"type": "text/javascript"
 					}
