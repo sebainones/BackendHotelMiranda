@@ -8,7 +8,7 @@ app.get("/", (_, res, next) => {
 });
 
 app.get("/names", (_, res, next) => {
-    res.json(["Tony", "Lisa", "Michael", "Ginger", "Food", "Sebas"]);
+    res.json(["Tony", "Lisa", "Michael", "Ginger", "Food", "Sebas","Tian"]);
 });
 
 app.listen(portNumber, () => {
