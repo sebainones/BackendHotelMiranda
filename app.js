@@ -2,10 +2,10 @@ const express = require("express");
 var app = express();
 
 //Added support for CORS for Dev/Testing purposes!
-app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "*");
-    next();
- });
+// app.use((req, res, next) => {
+//     res.header("Access-Control-Allow-Origin", "*");
+//     next();
+//  });
 
 const portNumber = process.env.PORT || 4041;
 
