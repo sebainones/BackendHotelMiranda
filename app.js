@@ -17,9 +17,9 @@ app.get("/names", (_, res, next) => {
     res.json(["Tony", "Lisa", "Michael", "Ginger", "Food", "Sebas","Tian"]);
 });
 
-app.get("/courses", (_, res, next) => {
-    res.json(["Course API", "Course B", "Course C", "Course D"]);
-});
+// app.get("/courses", (_, res, next) => {
+//     res.json(["Course API", "Course B", "Course C", "Course D"]);
+// });
 
 app.listen(portNumber, () => {
     console.log(`Server running on port: ${portNumber}` );
