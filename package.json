@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "backendhotelmiranda",
   "version": "1.0.0",
   "description": "bakcend app",
